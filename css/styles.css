@@ -1,0 +1,487 @@
+body{
+ font-family: "Roboto",sans-serif;
+ color:#434455 ;
+ background-color: #ffffff ;
+}
+
+ul,ol{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+border-bottom: 1px solid #e7e9fc
+}
+
+
+.container{ 
+ border-top: none ;
+ width: 1158px;
+ margin: 0 auto ;
+ padding: 0 15px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+
+
+.top-line{
+    display: flex; 
+    align-items: center;
+}
+
+
+
+.nav{
+    display: flex ;
+    align-items: center;
+}
+
+
+.logo{
+ padding: 24px 0 24px;
+    display: inline-block;
+    margin-right: 76px;
+    font-family: "Raleway",sans-serif;
+    line-height: 1.17; 
+    color:#4d5ae5 ;
+
+}
+.logo-span{
+    font-family: "Raleway", sans-serif;
+    color:#2e2f42 ;
+}
+
+.menu {
+    padding-left: 0;
+    margin: 0%;
+gap: 40px; 
+  display: flex;   
+  color:  #2e2f42; 
+}
+.menu-iten{
+padding-left: 0;
+margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42 ;
+}
+
+.menu-iten:hover,.menu-iten:focus{
+  color: #404bbf  ; 
+}
+
+.logo-span{
+color: #2e2f42;
+}
+
+.logo{
+   
+   
+gap: 40px ;    
+   
+line-height: 1.17;
+font-family: "Raleway", sans-serif; 
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5 ;
+}
+
+.menu-ok{
+    color:#434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-ok:hover,.menu-ok:focus{
+    color: #404bbf; 
+}
+
+
+
+
+.logo-btn:hover,.logo-btn:focus{
+background-color: #404BBF;
+}
+
+
+.logo-btn{
+ cursor: pointer;   
+ border-radius: 4px;   
+ background-color: #4d5ae5 ;
+ border: none;   
+ height: 56px;   
+ min-width: 169px ;   
+display: block;   
+line-height: 1.07; 
+cursor: pointer;
+font-family: "Roboto", sans-serif;
+ font-weight: 500;
+font-size: 16px; 
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+background: #4d5ae5;
+margin: 0 auto;
+}
+
+
+.logo-text{
+    margin-bottom: 48px;
+ margin-right: auto;   
+ margin-left: auto;   
+max-width: 496px;   
+line-height: 1.07;
+font-weight: 700;
+font-size: 56px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #ffffff;
+}
+
+
+
+.logo-two{
+ margin-bottom: 72px;   
+color: #2e2f42;
+line-height: 1.11;
+text-transform: capitalize;
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+
+
+
+.ul-three{
+ padding-left: 0;
+ margin: 0%;   
+    display: flex;
+    gap: 24px;
+}
+
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+.opis{
+    padding-bottom: 120px;
+    padding-top: 120px;
+
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color:#2e2f42 ;  
+}
+
+
+.ul-section{
+ margin: 0%;   
+padding-left: 0;
+    display: flex;
+    gap: 24px;
+
+}
+
+
+.li-clas{
+    padding-left: 0;
+    margin: 0;
+width: calc((100% - 72px) / 4);  
+ width: calc((100% - 72px) / 4); 
+}
+
+
+
+
+.name{
+ margin-bottom: 8px;   
+ text-align: center;  
+ color: #2e2f42;   
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+
+.logo-three{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
+
+
+
+.hero{
+    padding-bottom: 188px;
+    padding-top: 188px;
+   line-height: 1.07;
+   background-color:#2e2f42 ; 
+}
+
+
+.section-three{
+ padding-bottom: 120px;   
+ padding-top: 120px;   
+ background-color: #F4F4FD;
+}
+
+
+
+
+.adres{
+font-style: normal; 
+margin-left: auto;
+}
+
+
+
+.logo:focus, .logo:hover {
+ color: #4d5ae5;
+}
+
+
+.footer-menu{
+    padding: 100px 0 100px;
+    background-color: #2e2f42;
+    
+
+}
+
+
+
+
+.text-footer{
+ margin-bottom: 72px;   
+ font-size: 36px;
+ line-height: 1.11;
+ text-align: center; 
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+ color:#2e2f42;
+}
+
+
+.portfolio-list{
+margin-bottom: 8px;   
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:#2e2f42 ;
+}
+
+
+
+.portfolio-text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#434455 ;
+}
+
+
+.span-footer{
+    display: inline-block ; 
+    color:#f4f4fd ;
+}
+
+
+
+.parag{
+    max-width: 264px;
+    line-height: 1.5;
+    color:#F4F4FD ;
+    letter-spacing: 0.02em;
+}
+
+.menu-link{
+
+}
+
+.info{
+    color: #434455 ;
+}
+
+
+
+.info:focus,.info:hover{
+ color: #404bbf ;
+}
+
+
+.zagalovok{
+    
+ 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin: 0;
+     margin-bottom: 8px;
+}
+
+
+.paragrav{
+    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455 ;
+}
+
+
+
+.section-thre{
+    padding-left: 0;
+    margin: 0;
+border-radius: 0px 0px 4px 4px;   
+width: calc((100% - 72px) / 4);    
+background-color: #FFFFFF 
+}
+
+
+.div-section{
+    padding: 32px 0 32px;
+}
+
+
+
+
+.paragrav-tru{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+.section-footer{
+    padding: 120px 0 120px 0;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+
+}
+
+
+
+
+.logo-menu-i{
+padding-bottom: 24px;
+padding-top: 24px;    
+    color: #2e2f42;
+}
+
+
+.logo-menu-i:hover,.logo-menu-i:focus{
+    color:#404bbf  ;
+}
+
+
+.ul-info{
+ display: flex; 
+ gap: 40px;
+}
+
+
+.footer-ul{
+     padding-left: 0;    
+    margin: 0%;
+    display: flex; 
+    flex-wrap: wrap; 
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+
+
+.li-footer{
+ padding-left: 0 ;    
+ margin: 0 ;   
+ width: calc((100% - 48px) / 3) ;   
+}
+
+
+
+
+
+.div-footer{
+     border: 1px solid #e7e9fc; 
+    border-top: none;
+    padding: 32px 16px;  
+}
+
+
+
+
+.div-section{
+    padding: 32px 0 32px; 
+}
+
+
+
+
+
+
+
+
+
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: 700;
+font-size: 18px;
+
+/* line-height: 21px; */ 
+line-height: 1.16667;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+font-family: "Raleway", sans-serif;
+}
+
+
+
+
+
+img {
+    display: block;
+    }
+
+
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+
